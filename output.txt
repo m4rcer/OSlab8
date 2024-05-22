@@ -1,7 +1,7 @@
 Адрес    |     Код      |    Метка     |   Команда    |   Операнды  
-0000     |      10      |    value1    |      DB      |      10
+0000     |      0A      |    value1    |      DB      |      10
 0001     |     0100     |    value2    |      DW      |     100h
 0003     |      05      |    value3    |      DB      |      5
-0004     |    B80010    |      -       |   MOV AX,    |    value2
-0007     |     F6E0     |      -       | IMUL value1  |
-000A     |     F6F8     |      -       | IDIV value3  |
+0004     |    A10000    |      -       |     MOV      |  AX, value1
+0007     |     F625     |      -       |     IMUL     |    value1
+000A     |     F63D     |      -       |     IDIV     |    value3
